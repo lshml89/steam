@@ -1,0 +1,21 @@
+movie_id,title,genres,description,img
+1,Avenger Endgame,Action|Sci-Fi,The Avengers unite once more to defeat a powerful enemy,
+2,Barbie,Comedy|Family,Barbie embarks on a journey of self-discovery,barbie.jpg
+3,Black Panther,Action|Adventure,The new king of Wakanda must defend his nation,
+4,Doctor Strange,Fantasy|Action,A surgeon learns mystical arts to defend reality,doctorstrange.jpg
+5,Dune,Sci-Fi|Adventure,A young noble becomes key to the future of a desert planet,dune.jpg
+6,Everything Everywhere All at Once,Sci-Fi|Comedy,A woman navigates multiverse chaos to save existence,
+7,Guardians of the Galaxy,Action|Comedy,A team of misfits protect the galaxy,
+8,Guardians,Action|Sci-Fi,A super-powered team defends against supernatural threats,guardians.jpg
+9,Mission Impossible,Action|Thriller,Ethan Hunt faces a series of impossible missions,
+10,Oppenheimer,Drama|Biography,The story of the man behind the atomic bomb,oppenheimer.jpg
+11,Shazam,Action|Comedy,An ordinary teen gains magical superhero powers,shazam.jpg
+12,Spider-Man,Action|Adventure,A young hero balances life with responsibility,spider-man.jpg
+13,Spider,Thriller|Horror,A mysterious creature causes chaos,spider-man.jpg
+14,The Batman,Action|Crime,Batman uncovers corruption in Gotham,
+15,The Flash,Action|Sci-Fi,A hero travels through time to change fate,
+16,The Little Mermaid,Fantasy|Romance,A mermaid dreams of life on land,
+17,The Marvels,Action|Sci-Fi,Heroes unite to stop a cosmic threat,the-marvels.jpg
+18,Thor,Action|Fantasy,The god of thunder must prove his worth,thor.jpg
+19,TopGun,Action|Drama,Elite pilots face dangerous skies,topgun.jpg
+20,Wonka,Fantasy|Family,The story of the world’s most imaginative chocolatier,wonka.jpg

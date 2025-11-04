@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamFlix - Recomendador</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <div class="logo">🎬 StreamFlix</div>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Películas</a>
+            <a href="#">Series</a>
+        </nav>
+    </header>
+
+    <!-- HERO BANNER -->
+    <section class="hero">
+        <h1>Recomendaciones Inteligentes</h1>
+        <p>Responde las preguntas y te recomendaremos películas 🍿</p>
+
+        <div class="search-box">
+
+            <!-- Pregunta 1 -->
+            <select id="genre">
+                <option value="">Selecciona género</option>
+                <option value="Acción">Acción</option>
+                <option value="Comedia">Comedia</option>
+                <option value="Terror">Terror</option>
+                <option value="Drama">Drama</option>
+                <option value="Aventura">Aventura</option>
+            </select>
+
+            <!-- Pregunta 2 -->
+            <select id="intensity">
+                <option value="">Nivel de intensidad</option>
+                <option value="Alta">Alta</option>
+                <option value="Media">Media</option>
+                <option value="Baja">Baja</option>
+            </select>
+
+            <!-- Pregunta 3 -->
+            <select id="era">
+                <option value="">Época</option>
+                <option value="Reciente">Recientes</option>
+                <option value="Clásica">Clásicas</option>
+            </select>
+
+            <button id="btn_recommend">Recomendar</button>
+        </div>
+    </section>
+
+    <!-- RESULTADOS -->
+    <main>
+        <h2 class="section-title">Tus Recomendaciones</h2>
+        <section id="recs-container" class="recs-grid"></section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 StreamFlix Recommender</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+/* RESET */
+* { margin:0; padding:0; box-sizing:border-box; font-family:'Roboto', sans-serif; }
+
+body { background-color:#181818; color:#fff; min-height:100vh; display:flex; flex-direction:column; }
+
+/* HEADER */
+.header { display:flex; justify-content:space-between; align-items:center; background:#141414; padding:20px 40px; border-bottom:1px solid #333; }
+.header .logo { font-size:26px; font-weight:700; color:#E50914; }
+.header nav a { margin-left:20px; text-decoration:none; color:#ccc; transition:0.3s; }
+.header nav a:hover { color:#fff; }
+
+/* HERO */
+.hero { text-align:center; padding:60px 20px; }
+.hero h1 { font-size:32px; margin-bottom:10px; }
+.hero p { font-size:18px; color:#ccc; margin-bottom:25px; }
+
+/* FORM PREGUNTAS */
+.questions-box { 
+  display:flex; 
+  justify-content:center; 
+  gap:15px; 
+  flex-wrap:wrap;
+  margin-bottom:30px;
+}
+
+.questions-box select {
+  background:#202020;
+  color:#fff;
+  border:none;
+  padding:12px 14px;
+  border-radius:5px;
+  font-size:16px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.questions-box select:hover { outline:2px solid #E50914; }
+
+#btn_recommend {
+  padding:12px 22px;
+  font-size:16px;
+  border:none;
+  border-radius:5px;
+  background:#E50914;
+  color:#fff;
+  cursor:pointer;
+  transition:0.3s;
+}
+#btn_recommend:hover { background:#B20710; }
+
+/* RESULTADOS */
+.section-title { margin:30px 40px 10px; font-size:22px; font-weight:600; }
+
+.recs-grid { 
+  display:grid; 
+  grid-template-columns:repeat(auto-fit, minmax(160px,1fr)); 
+  gap:20px; 
+  padding:0 40px 40px; 
+}
+
+.movie-card { 
+  background:#202020; 
+  border-radius:10px; 
+  overflow:hidden; 
+  box-shadow:0 4px 12px rgba(0,0,0,0.5); 
+  transition:0.3s;
+}
+
+.movie-card:hover { transform:scale(1.05); }
+
+.movie-card img { width:100%; height:240px; object-fit:cover; }
+.movie-info { padding:12px; text-align:center; }
+.movie-info h3 { font-size:15px; margin-bottom:6px; }
+.movie-info p { font-size:13px; color:#aaa; }
+
+/* FOOTER */
+footer { background:#141414; text-align:center; padding:15px; border-top:1px solid #333; }
+
+/* RESPONSIVE */
+@media (max-width:600px){
+  .header { flex-direction:column; gap:10px; }
+  .questions-box { flex-direction:column; width:80%; margin:auto; }
+  .recs-grid { grid-template-columns: 1fr 1fr; padding:0 20px; }
+}
